@@ -1,0 +1,213 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #E6D7FF;
+}
+@font-face {
+    font-family: "Unbounded";
+    src: url('../fonts/Unbounded-VariableFont_wght.ttf');
+    font-weight: 400;
+}
+@media (min-width: 767px) {
+    .container{
+        max-width: 1512px;
+        max-height: 982px;
+        margin: 0 auto; 
+        background-color:#191818;
+        border-radius: 30px;
+        background-image: url(Vector.png);
+        background-repeat: no-repeat;
+        background-position: 22px 0;
+        display: flex;
+        flex-direction: row;
+    }
+    .join{
+        width: 890px;
+        height: 937px;
+        margin-top: 43px;
+        margin-bottom: 5px;
+        margin-left: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    .hjoin{
+        width: 757px;
+        height: 330px;  
+        margin-left: 30px;
+        
+       
+    }
+    .h{
+        margin: 0;
+        font-family: "Unbounded", sans-serif;
+        font-size:  100px;
+        font-weight: 400;
+        height: 110px;
+        color: #FFFFFF;
+        white-space: nowrap;
+    }
+    #t{
+        font-family: "Unbounded", sans-serif;
+        font-weight: 400;
+        font-size: 20px;
+        
+    }
+    .period{
+        display: flex;
+        flex-direction: row;
+        margin-left: 35px;
+        margin-top: 50px;
+        font-size: 20px;
+    }
+    .days{
+        color: #FFFFFF;
+        margin-right: 304px;
+    }
+    .eday{
+        margin-right: 7px;
+        color: #9394A1;
+    }
+    .time{
+        color: #FFFFFF;
+    }
+    .reg{
+        width: 890px;
+        height: 402px;
+        border-radius: 30px;
+        
+        margin-top: 10px;
+        background-color: #FFFFFF;
+        display: flex;
+        flex-direction: column;
+    }
+    #reg1{
+        display: flex;
+        margin-top: 0;
+        flex-direction: column;
+        margin-left: 40px;
+        margin-top: 55px;
+    }
+    .rt{
+        width: 68px;
+        height: 25px;
+        white-space: nowrap;
+
+    }
+    .bli{
+        width: 800px;
+        transform: translateY(20px);
+        border: 0; 
+        border-bottom: 2px solid #191818;
+        background-color: transparent;
+        outline: none; 
+        font-family: "Unbounded", sans-serif;
+        font-size: 20px;
+        position: relative;
+    }
+    /*#reg1 input::after {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 800px;
+        height: 2px;
+        background-color: #;
+        border-radius: 10px; /* Здесь вы можете настроить радиус с
+    }*/
+    .btns{
+        display: flex;
+        flex-direction: row;
+        
+        margin-top: 10px;
+        
+    }
+    .tpb{
+        font-family: "Unbounded", sans-serif;
+        font-size: 30px;
+        color: #191818;
+        background-color: #69FB6F;
+        width: 783px;
+        height: 101px;
+        border-radius: 30px;
+        border: 0;
+    }
+    .lb{
+        background-color: #69FB6F;
+        border-radius: 30px;
+        border: 0;
+        width: 102px;
+        height: 102px;
+        margin-left: 5px;
+    }
+    .rtp{
+        width: 68px;
+        height: 25px;
+        white-space: nowrap;
+        color:#9394A1 ;
+    }
+    .grayi{
+        width: 800px;
+        transform: translateY(20px);
+        border: 0; 
+        border-bottom: 2px solid #9394A1;
+        background-color: transparent;
+        outline: none; 
+        font-family: "Unbounded", sans-serif;
+        font-size: 20px;
+        position: relative;
+    }
+    .required::after{
+        content: '*';
+        color: #FF651E;
+        margin-left: 3px;
+        width: 7px;
+        height: 7px;
+    }
+    .ban{
+        width: 591px;
+        height: 962px;
+        margin-top: 10px;
+        margin-left: 11px;
+        margin-bottom: 10px;
+        margin-right: 10px;
+        background-color: #B58AFA;
+        border-radius: 30px;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        background-image: url(Vector2.png);
+        background-repeat: no-repeat;
+        background-position: 0 15px;
+    }
+    .cae1{
+        width: 431px;
+        height: 377px;
+        margin-top: 6px;
+        transform: translate(-127px);
+
+    }
+    .cae2{
+        width: 659px;
+        height: 569px;
+        transform: translate(136px,-173px);
+        z-index: 2;
+    }
+    .bh{
+        font-family: "Unbounded", sans-serif;
+        font-size: 130px;
+        color: #FFFFFF;
+        width: 437px;
+        height: 161px;
+        transform: translate(85px,-245px); 
+    }
+    .bh2{
+        font-family: "Unbounded", sans-serif;
+        font-size: 30px;
+        color: #FFFFFF;
+        width: 224px;
+        height: 37px;
+        transform: translate(184px,-245px);
+    }
+
+}
+@media (max-width: 767px) {}
